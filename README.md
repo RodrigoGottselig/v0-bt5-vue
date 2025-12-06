@@ -6,7 +6,7 @@ O esperado de um projeto incial:
 - [x] Fazer o auto do tema (detecta preferência do sistema)
 - [x] Multi línguas ([vue-i18n](https://vue-i18n.intlify.dev/))
 - [x] Colocar mais palavras na tradução (i18n.json)
-- [ ] Colocar os ícones do bootstrap5
+- [x] Colocar os ícones do bootstrap5
 - [ ] Pensar no site com a pasta layouts?!?
 - [ ] Busca interna ??? [algolia](https://www.algolia.com/developers) [typesense](https://typesense.org/)
 - [ ] Blog / Notícias ???
@@ -89,3 +89,14 @@ npm run build
 ```
 ### Documentação
 Foram adicionados e removidos textos no arquivo json, alteração na página sobre nós, remoção de tag's sem valor, e também definição de um link na imagem do footer. Criação de uma function para verificar se os campos estão preenchidos, e retorno de feedback para cada envio, retornando sucesso ou erro através de um boleano, tipagem e formatação dos dados inseridos no formulário.
+
+
+###Importante!!
+
+
+ Para testar voce deve criar um arquivo .env no backend onde sera inserido a sua chave do gemini, a vhave pode ser obtida gratuitamente em https://aistudio.google.com/api-keys, crie uma chave para projeto, a chave pessoal nao ira funcionar!
+
+ o arquivo .env deve ter o seguinte conteudo:
+
+ OPENAI_API_KEY=SUA CHAVE GEMINI AQYU SEM ASPAS OU ;
+ PORT=3001
